@@ -1,30 +1,30 @@
 # typed: strict
 # frozen_string_literal: true
 
-# Written by server/scripts/cli-formula.sh in the release of barberry 0.8.1; a release replaces it.
+# Written by server/scripts/cli-formula.sh in the release of barberry 0.9.0; a release replaces it.
 class Barberry < Formula
   desc "Catalog, tasting notes and exports of Barberry Garden, from the command-line"
   homepage "https://barberry.io"
 
   on_macos do
     on_arm do
-      url "https://github.com/barberry-io/homebrew-tap/releases/download/barberry-v0.8.1/barberry-0.8.1-aarch64-apple-darwin.tar.gz"
-      sha256 "85de471c3402dcb30397d00f4f5b64ec45b34d4801448329a8fd453fd8f9107d"
+      url "https://github.com/barberry-io/homebrew-tap/releases/download/barberry-v0.9.0/barberry-0.9.0-aarch64-apple-darwin.tar.gz"
+      sha256 "fd2b67d44e02ad6a0adcff02a17a13bb7722d32d239fe7bb87fc96d2b22e5d0f"
     end
     on_intel do
-      url "https://github.com/barberry-io/homebrew-tap/releases/download/barberry-v0.8.1/barberry-0.8.1-x86_64-apple-darwin.tar.gz"
-      sha256 "e7616d73a8797959fc1d1d7edccfae637c3a18e95951f1f527f1f6826e37514e"
+      url "https://github.com/barberry-io/homebrew-tap/releases/download/barberry-v0.9.0/barberry-0.9.0-x86_64-apple-darwin.tar.gz"
+      sha256 "7472d8b1d898042990793c1477bd672eb3dad4202a56f6f3ea1a98ae853ac2b6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/barberry-io/homebrew-tap/releases/download/barberry-v0.8.1/barberry-0.8.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f30263d867275bbf80cb017b25de36884ac6a622f85b582d08db6dcd9819bfb0"
+      url "https://github.com/barberry-io/homebrew-tap/releases/download/barberry-v0.9.0/barberry-0.9.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "dace72241677cd92af4ed704bbf7e35a8b18bc3c99837818909606213af7b266"
     end
     on_intel do
-      url "https://github.com/barberry-io/homebrew-tap/releases/download/barberry-v0.8.1/barberry-0.8.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "cf69dbfd56f2dc32bc2baa2e35375c6eff4a5e66c30d4990b4e88b1ebad35450"
+      url "https://github.com/barberry-io/homebrew-tap/releases/download/barberry-v0.9.0/barberry-0.9.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "2e16360b10ccd71210a89ced6b2e2a0d9b3a2894b2b5921c9f672ce4fd7e768b"
     end
   end
 
